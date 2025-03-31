@@ -6,7 +6,7 @@ from PIL import Image
 from streamlit_drawable_canvas import st_canvas
 
 # Cargar el modelo desde el archivo
-with open("pages/svm_digits_model.pkl", "rb") as f:
+with open("Streamlit/pages/svm_digits_model.pkl", "rb") as f:
     modelo = pickle.load(f)
 
 scaler = modelo["scaler"]
