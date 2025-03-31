@@ -13,7 +13,7 @@ scaler = modelo["scaler"]
 clf = modelo["clf"]
 
 # Título de la página
-st.set_page_config(page_title="Clasificador de Dígitos Manuscritos", page_icon="🖊️", layout="centered")
+st.set_page_config(page_title="Clasificador de Dígitos Manuscritos", page_icon="🖊️", layout="wide")
 st.title("🖊️ Clasificador de Dígitos Manuscritos")
 st.write(
     """
