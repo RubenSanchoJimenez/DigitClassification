@@ -6,6 +6,9 @@ import pickle
 import streamlit as st
 
 
+st.set_page_config(page_title="Generador de modelo", page_icon="🤖", layout="wide")
+st.title("🤖 Generador de modelo")
+
 # 1. Cargar el dataset de dígitos (8x8 imágenes)
 digits = load_digits()
 X = digits.data           # Datos: (n_samples, 64)
